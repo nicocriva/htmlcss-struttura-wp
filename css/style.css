@@ -45,7 +45,7 @@ section:last-child{
 }
 
 .aside{
-    width: 230px;
+    width: 20%;
     height: calc(100% - 130px);
     background-color: #abcfe7;
     float: left;
@@ -53,7 +53,7 @@ section:last-child{
 
 .central-section{
     background-color: #abcfe7;
-    width: 705px;
+    width: calc(60% - 50px);
     height: calc(100% - 130px);
     float: left;
     margin: 0 25px;
