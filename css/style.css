@@ -32,6 +32,33 @@ section:last-child{
     margin-bottom: 10px;
 }
 
+.second-section::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.top-section{
+    background-color: #abcfe7;
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+.aside{
+    width: 230px;
+    height: calc(100% - 130px);
+    background-color: #abcfe7;
+    float: left;
+}
+
+.central-section{
+    background-color: #abcfe7;
+    width: 705px;
+    height: calc(100% - 130px);
+    float: left;
+    margin: 0 25px;
+}
+
 footer{
     background-color: #8701fe;
     height: 50px;
