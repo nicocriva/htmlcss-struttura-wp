@@ -12,3 +12,27 @@
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+header{
+    height: 130px;
+    background-color: #e579e6;
+    margin-bottom: 30px;
+}
+
+section:first-child{
+    background-color: #e1d67a;
+    height: 450px;
+    margin-bottom: 30px;
+
+}
+
+section:last-child{
+    background-color: #0088f7;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #8701fe;
+    height: 50px;
+}
